@@ -1,12 +1,14 @@
 #error-text {
     color: red;
+    font-size: 30px;
 }
 
 .buttons {
-    background-color: green;
+    background-color: orange;
     color: white;
 }
-/* 
+
+
 #my-image {
-    max-height: 30vh;
-} */
+    max-width: 100px;
+}
