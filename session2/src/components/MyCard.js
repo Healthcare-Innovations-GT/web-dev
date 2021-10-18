@@ -7,8 +7,14 @@ class MyCard extends React.Component {
 
     render() {
         return (
-            <div>
-                Hello World!
+            <div className='my-card'>
+                <h3>{this.props.heading}</h3>
+                <hr/>
+                <img className='my-img' src={this.props.imageURL} />
+                <hr/>
+                <p>{this.props.description}</p>
+                <button>Click this button</button>
+                <br/>
             </div>
         )
     }
